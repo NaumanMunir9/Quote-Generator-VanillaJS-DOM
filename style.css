@@ -2,4 +2,48 @@
 
 * {
   font-family: "Alata", sans-serif;
+  text-transform: capitalize;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(255, 225, 179);
+  color: black;
+  font-weight: 400;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  flex: 0 0 80%;
+}
+
+#quoteBtn {
+  border: none;
+  color: antiquewhite;
+  background: rgb(255, 193, 101);
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+#quoteBtn:hover {
+  background: rgb(255, 153, 0);
+}
+
+blockquote {
+  background: rgb(248, 229, 203);
+  border-left: 10px solid rgb(255, 193, 101);
+  margin: 1.5rem;
+  padding: 0.5rem;
+}
+
+#quoteAuthor {
+  color: rgb(255, 153, 0);
 }
