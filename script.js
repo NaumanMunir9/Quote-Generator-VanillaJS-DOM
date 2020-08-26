@@ -320,3 +320,17 @@ const quotes = [
       "Failure teaches you more than winning. It completely exposes your weaknesses.",
   },
 ];
+
+const quoteButton = document.getElementById("quoteBtn");
+const quoteAuthor = document.getElementById("quoteAuthor");
+const quote = document.getElementById("quote");
+
+// adding functionality to the button to generate random quotes
+function quoteGenerator() {
+  let random = Math.floor(Math.random() * quotes.length);
+  quoteAuthor.innerHTML = quotes[random].name;
+  quote.innerHTML = quotes[random].quote;
+}
+
+// event listener to be place on the button
+quoteButton.addEventListener("click", quoteGenerator);

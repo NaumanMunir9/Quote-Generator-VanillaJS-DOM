@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
 
 * {
-  font-family: "Alata", sans-serif;
   text-transform: capitalize;
 }
 
 body {
+  font-family: "Alata", sans-serif;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -24,6 +26,7 @@ body {
 }
 
 #quoteBtn {
+  font-family: "Alata", sans-serif;
   border: none;
   color: antiquewhite;
   background: rgb(255, 193, 101);
@@ -39,6 +42,7 @@ body {
 
 blockquote {
   background: rgb(248, 229, 203);
+  font-family: "Merienda", cursive;
   border-left: 10px solid rgb(255, 193, 101);
   margin: 1.5rem;
   padding: 0.5rem;
@@ -46,4 +50,6 @@ blockquote {
 
 #quoteAuthor {
   color: rgb(255, 153, 0);
+  font-family: "Italianno", cursive;
+  font-size: 50px;
 }
